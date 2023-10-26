@@ -35,9 +35,9 @@ github_username:  ljg294
 
 # Additional icon links
 additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
+  - title: Link name
+    icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+    url: Link url (eg. https://google.com)
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -66,7 +66,7 @@ content:
     content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
+        # other value (or no value) means no border will be displayed
         title: Project name
         link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         link_text: Link Text
@@ -84,46 +84,44 @@ content:
   - title: Experience
     layout: list
     content:
-      - layout: right
+      - layout: left
         title: RIMAN KOREA
         sub_title: Software Engineer
         caption: June 2021 - May 2023
         link: https://www.rimankorea.co.kr
-        quote: >
+        quote:
           https://mall.rimankorea.com/
         description: | # this will include new lines to allow paragraphs
           | Developed Back-end API of web application
           | Test
-      - layout: right
+      - layout: left
         title: ELAND-RETAIL
         sub_title: Software Engineer
         caption: January 2020 - June 2021
         link: https://www.elandretail.com/
-        quote: >
+        quote:
           In charge of https://elandmall.com
         description: | # this will include new lines to allow paragraphs
           Developed serverless application
           In charge of CI-CD of web application
-      - layout: right
+      - layout: left
         title: ELAND-SYSTEMS
         sub_title: Software Engineer (Internship)
         caption: July 2019 - August 2019
         link: https://elandinnople.com/dv/
-        quote: >
+        quote:
           In charge of https://elandmall.com
         description: | # this will include new lines to allow paragraphs
           Developed serverless application of short-url
   - title: Education
     layout: list
     content:
-      - layout: top-right
+      - layout: top-left
         title: Konkuk University
         sub_title: Bachelor's Degree in Computer Science
         caption: 2013 - 2020
-        quote: >
-          Publication - Eye-mouse: Mouse for patients and the disabled based on ML and gaze processing technology
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
+          Publication - Eye-mouse: Mouse for patients and the disabled based on ML and gaze processing technology
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
@@ -144,7 +142,7 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
 
 exclude : [
   "Gemfile",
@@ -157,4 +155,4 @@ exclude : [
   "lib/",
   "scripts/",
   "docker-compose.yml",
-  ]
+]
