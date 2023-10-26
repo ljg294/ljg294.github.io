@@ -122,12 +122,17 @@ content:
         caption: 2013 - 2020
         description: | # this will include new lines to allow paragraphs
           Publication - Eye-mouse: Mouse for patients and the disabled based on ML and gaze processing technology
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+  - title: Certification & License
+    layout: list
+    content:
+      - layout: top-left
+        sub_title: CKA (Certified Kubernetes Administrator)
+      - layout: top-left
+        sub_title: CKAD (Certified Kubernetes Application Developer
+      - layout: top-left
+        sub_title: KCD Korea 2023 Contributor
+      - layout: top-left
+        sub_title: Amazon Web Services Cloud Practitioner
 
 # Footer
 footer_show_references: true
