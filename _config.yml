@@ -1,5 +1,5 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+repository: ljg294/ljg294.github.io
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
@@ -50,7 +50,7 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
@@ -85,23 +85,43 @@ content:
     layout: list
     content:
       - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+        title: RIMAN KOREA
+        sub_title: Software Engineer
+        caption: June 2021 - May 2023
+        link: https://www.rimankorea.co.kr
         quote: >
-          Short description of the company (optional)
+          https://mall.rimankorea.com/
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          | Developed Back-end API of web application
+          | Test
+      - layout: right
+        title: ELAND-RETAIL
+        sub_title: Software Engineer
+        caption: January 2020 - June 2021
+        link: https://www.elandretail.com/
+        quote: >
+          In charge of https://elandmall.com
+        description: | # this will include new lines to allow paragraphs
+          Developed serverless application
+          In charge of CI-CD of web application
+      - layout: right
+        title: ELAND-SYSTEMS
+        sub_title: Software Engineer (Internship)
+        caption: July 2019 - August 2019
+        link: https://elandinnople.com/dv/
+        quote: >
+          In charge of https://elandmall.com
+        description: | # this will include new lines to allow paragraphs
+          Developed serverless application of short-url
   - title: Education
     layout: list
     content:
       - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
+        title: Konkuk University
+        sub_title: Bachelor's Degree in Computer Science
+        caption: 2013 - 2020
         quote: >
-          Short institution or course description (optional)
+          Publication - Eye-mouse: Mouse for patients and the disabled based on ML and gaze processing technology
         description: | # this will include new lines to allow paragraphs
           Description of qualification
   - title: A Little More About Me
