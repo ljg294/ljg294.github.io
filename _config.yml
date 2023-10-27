@@ -34,10 +34,10 @@ linkedin_username: jay-gue-lee-b7065a194
 #googlescholar_username: D847cGsAAAAJ
 
 # Additional icon links
-additional_links:
-  - title: Link name
-    icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-    url: Link url (eg. https://google.com)
+#additional_links:
+#  - title: Link name
+#    icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#    url: Link url (eg. https://google.com)
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -52,6 +52,9 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
+  백엔드 개발자의 길을 걸어 왔습니다.
+  <mark>DevOps</mark>에 관심이 생겨 Operation skill-set에 관심을 갖고 있습니다.
+  
   Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
   You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
@@ -92,7 +95,11 @@ content:
         quote:
           https://mall.rimankorea.com/
         description: | # this will include new lines to allow paragraphs
-          | Developed Back-end API of web application
+          -  Developed Back-end API of web application
+          -  Developed Back-end API of web application
+          | Test
+          | Test
+          | Test
           | Test
       - layout: left
         title: ELAND-RETAIL
@@ -125,14 +132,14 @@ content:
   - title: Certification & License
     layout: list
     content:
-      - layout: top-left
-        sub_title: CKA (Certified Kubernetes Administrator)
-      - layout: top-left
-        sub_title: CKAD (Certified Kubernetes Application Developer
-      - layout: top-left
-        sub_title: KCD Korea 2023 Contributor
-      - layout: top-left
-        sub_title: Amazon Web Services Cloud Practitioner
+      - sub_title: CKA (Certified Kubernetes Administrator)
+        description: Issued Sep 2023, Expired Sep 2026
+      - sub_title: CKAD (Certified Kubernetes Application Developer
+        description: Issued Oct 2023, Expired Oct 2026
+      - sub_title: KCD Korea 2023 Contributor
+        description: "[Youtube Link](https://youtu.be/wsmsFl3cMzY?si=1H88z26tViIUhI7J)"
+      - sub_title: Amazon Web Services Cloud Practitioner
+        description: Issued Apr 2023, Expired Apr 2026
 
 # Footer
 footer_show_references: true
