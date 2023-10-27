@@ -1,0 +1,13 @@
+- layout: left
+  name: Backend
+  description: | # this will include new lines to allow paragraphs
+    * Java
+    * Spring Boot, Spring Batch, JPA, Querydsl, Hibernate
+    * AWS SDK
+    * Gradle
+- layout: left
+  name: DevOps
+  description: | # this will include new lines to allow paragraphs
+    * Jenkins, ArgoCD
+    * AWS Services (SQS, SNS, DMS, RDS, etc.)
+    * Kubernetes (EKS)

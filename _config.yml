@@ -6,7 +6,7 @@ repository: ljg294/ljg294.github.io
 version: 2
 
 # Personal info
-name: JayGue Lee
+name: 이재규
 title: Software Engineer
 email: ljg29494@gmail.com
 # email_title: Email (Email title override)
@@ -19,127 +19,44 @@ phone: +82-10-9651-2425
 darkmode: true
 
 # Social links
-#twitter_username: jekyllrb
 github_username: ljg294
-#stackoverflow_username: "00000001"
-#dribbble_username: jekyll
-#facebook_username: jekyll
-#flickr_username: jekyll
-#instagram_username: jekyll
 linkedin_username: jay-gue-lee-b7065a194
-#xing_username: jekyll
-#pinterest_username: jekyll
-#youtube_username: jekyll
-#orcid_username: 0000-0000-0000-0000
-#googlescholar_username: D847cGsAAAAJ
-
-# Additional icon links
-#additional_links:
-#  - title: Link name
-#    icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#    url: Link url (eg. https://google.com)
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
 
 # About Section
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  백엔드 개발자의 길을 걸어 왔습니다.
-  <mark>DevOps</mark>에 관심이 생겨 Operation skill-set에 관심을 갖고 있습니다.
-  
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  **Deal with it**<br/>
+  4년 차 백엔드 엔지니어 입니다. (상품, 주문, 쿠폰, 회원)<br/>
+  Java & Spring, Cloud(AWS) 기반으로 API 개발을 했습니다.<br/>
+  <mark>단독</mark>으로도 도메인 개발을 주도 한적도 있고, 팀원과 <mark>협력</mark>하여 도메인 개발을 진행한 적도 있습니다.<br/>
+  <br/>
+  <mark>DevOps</mark>에 관심이 생겨 Operation skill-set에 관심을 두고 있습니다.<br/>
+  직장 업무를 우선으로 하나 세미나, 소모임 적극적인 참석 등 외부 활동에 관심이 많습니다.<br/>
+  OpenInfra Community Days Korea 2023에 contribute 한 경험이 있습니다.<br/>
+  [개발자 관점에서 보는 웹 애플리케이션과 쿠버네티스](https://youtu.be/wsmsFl3cMzY?si=eQxCO-5gB2sNJsrp)<br/>
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-        # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
-  - title: Experience
-    layout: list
-    content:
-      - layout: left
-        title: RIMAN KOREA
-        sub_title: Software Engineer
-        caption: June 2021 - May 2023
-        link: https://www.rimankorea.co.kr
-        quote:
-          https://mall.rimankorea.com/
-        description: | # this will include new lines to allow paragraphs
-          -  Developed Back-end API of web application
-          -  Developed Back-end API of web application
-          | Test
-          | Test
-          | Test
-          | Test
-      - layout: left
-        title: ELAND-RETAIL
-        sub_title: Software Engineer
-        caption: January 2020 - June 2021
-        link: https://www.elandretail.com/
-        quote:
-          In charge of https://elandmall.com
-        description: | # this will include new lines to allow paragraphs
-          Developed serverless application
-          In charge of CI-CD of web application
-      - layout: left
-        title: ELAND-SYSTEMS
-        sub_title: Software Engineer (Internship)
-        caption: July 2019 - August 2019
-        link: https://elandinnople.com/dv/
-        quote:
-          In charge of https://elandmall.com
-        description: | # this will include new lines to allow paragraphs
-          Developed serverless application of short-url
-  - title: Education
-    layout: list
-    content:
-      - layout: top-left
-        title: Konkuk University
-        sub_title: Bachelor's Degree in Computer Science
-        caption: 2013 - 2020
-        description: | # this will include new lines to allow paragraphs
-          Publication - Eye-mouse: Mouse for patients and the disabled based on ML and gaze processing technology
-  - title: Certification & License
-    layout: list
-    content:
-      - sub_title: CKA (Certified Kubernetes Administrator)
-        description: Issued Sep 2023, Expired Sep 2026
-      - sub_title: CKAD (Certified Kubernetes Application Developer
-        description: Issued Oct 2023, Expired Oct 2026
-      - sub_title: KCD Korea 2023 Contributor
-        description: "[Youtube Link](https://youtu.be/wsmsFl3cMzY?si=1H88z26tViIUhI7J)"
-      - sub_title: Amazon Web Services Cloud Practitioner
-        description: Issued Apr 2023, Expired Apr 2026
+#  - title: Projects # Title for the section
+#    layout: list # Type of content section (list/text)
+#    content:
+#      - layout: left
+#        border: weak  # Value of `weak` will display a weak border below this item. # Any
+#        # other value (or no value) means no border will be displayed
+#        title: Project name
+#        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+#        link_text: Link Text
+#        additional_links:
+#          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+#            icon: fab fa-github
+#            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+#          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+#            icon: fab fa-github
+#            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+#        quote: >
+#          Short overview of the project (optional)
+#        description: | # this will include new lines to allow paragraphs
+#          Description about the work on/with the project
 
 # Footer
 footer_show_references: true
