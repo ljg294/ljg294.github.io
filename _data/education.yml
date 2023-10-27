@@ -1,0 +1,6 @@
+- layout: left
+  education_name: 건국대학교
+  major_name: 컴퓨터공학부 학사
+  dates: 2013 - 2020
+  description: | # this will include new lines to allow paragraphs
+    아이마우스: 머신러닝과 시선처리 기술을 기반으로 한 중증환자 및 장애인을 위한 마우스

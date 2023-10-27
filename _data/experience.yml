@@ -1,0 +1,25 @@
+- layout: left
+  company: 리만코리아
+  job_title: 백엔드 개발자
+  dates: June 2021 - May 2023
+  link: https://www.rimankorea.co.kr/
+  description: | # this will include new lines to allow paragraphs
+    - 주문, 회원, 정산 도메인 개발 (https://myoffice.rimankorea.com/)
+    - 상품, 쿠폰 도메인 개발 (https://mall.rimankorea.com/)
+- layout: left
+  company: 이랜드 리테일
+  job_title: 개발자
+  dates: January 2020 - June 2021
+  link: https://www.elandretail.com/
+  description: | # this will include new lines to allow paragraphs
+    - https://elandmall.com/
+    - Developed serverless application
+    - In charge of CI-CD of web application
+- layout: left
+  company: 이랜드 시스템스
+  job_title: 개발자 (인턴)
+  dates: July 2019 - August 2019
+  link: https://elandinnople.com/dv/
+  description: | # this will include new lines to allow paragraphs
+    - https://elandmall.com/
+    - Developed serverless application of short-url
