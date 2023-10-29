@@ -1,9 +1,9 @@
 # Site
-repository: ljg294/ljg294.github.io
+repository: ljg294/ljg294.github.io/kor
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
-version: 2
+version: 3
 
 # Personal info
 name: 이재규
@@ -64,7 +64,7 @@ footer_show_references: true
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+remote_theme: sproogen/modern-resume-theme
 
 sass:
   sass_dir: _sass
