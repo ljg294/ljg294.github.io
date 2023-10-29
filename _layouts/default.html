@@ -3,7 +3,7 @@
 
 {%- include head.html -%}
 <meta property="og:image" content="https://i.namu.wiki/i/smk6upf4nSiHY9ORhxzH5jtQ_-SPDEt0Kx5C2ImgHQsIIlcavA1sWM7n4fKPWuTobH3rp2Ckrrvk_TqBru04FrJOAMGRrry7sxNgSb34HqFN2Ui1y-donYYP061JcKVpdy9VoesFsTvxNHJmcPBwqg.webp">
-<body>
+<body class="{% if site.darkmode == true and site.darkmode != 'never' %}dark{% endif %}">
 
 {%- include header.html -%}
 
@@ -34,7 +34,7 @@
 {%- include footer.html -%}
 
 <a href="https://github.com/sproogen/resume-theme" target="_blank">
-  <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"
+  <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://github.blog/wp-content/uploads/2008/12/forkme_right_white_ffffff.png?resize=149%2C149"
        alt="Fork me on GitHub">
 </a>
 <script src="https://utteranc.es/client.js"

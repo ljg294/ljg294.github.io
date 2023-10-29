@@ -27,9 +27,10 @@ linkedin_username: jay-gue-lee-b7065a194
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   **Deal with it**<br/>
-  4년 차 백엔드 엔지니어 입니다. (상품, 주문, 쿠폰, 회원)<br/>
+  4년 차 백엔드 엔지니어 입니다. <br/>
   Java & Spring, Cloud(AWS) 기반으로 API 개발을 했습니다.<br/>
   <mark>단독</mark>으로도 도메인 개발을 주도 한적도 있고, 팀원과 <mark>협력</mark>하여 도메인 개발을 진행한 적도 있습니다.<br/>
+  개발에 있어 <mark>테스트 코드</mark> 작성과 <mark>리팩토링</mark>의 중요하여 꾸준히 관심을 갖고 실행하고 있습니다.<br/>
   <br/>
   <mark>DevOps</mark>에 관심이 생겨 Operation skill-set에 관심을 두고 있습니다.<br/>
   직장 업무를 우선으로 하나 세미나, 소모임 적극적인 참석 등 외부 활동에 관심이 많습니다.<br/>

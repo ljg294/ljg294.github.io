@@ -3,9 +3,23 @@
   job_title: 백엔드 개발자
   dates: June 2021 - May 2023
   link: https://www.rimankorea.co.kr/
-  description: | # this will include new lines to allow paragraphs
-    - 주문, 회원, 정산 도메인 개발 (https://myoffice.rimankorea.com/)
-    - 상품, 쿠폰 도메인 개발 (https://mall.rimankorea.com/)
+  description_title: | # this will include new lines to allow paragraphs
+    https://myoffice.rimankorea.com/ - 주문, 회원, 정산 도메인 개발
+  description: |
+    - 환불 프로세스 쿼리 롤백 개발
+    - 집계 프로세스 개발
+    - 리팩토링 및 쿼리 튜닝
+    - API 정의서 문서 자동화 테스트 코드 작성 (ASCII Doc)
+    - UMS API 개발
+  description_title_second: | # this will include new lines to allow paragraphs
+    - https://mall.rimankorea.com/ - 상품, 쿠폰 도메인 개발
+  description_second: |
+    - 마스터 상품 구성 및 기본 기능 구현
+    - 라이브 테이블 구현으로 NOSQL 적용 가능한 모델 구현
+    - 쿠폰 사용 및 롤백을 위한 비동기 프로세스 구현
+    - UMS 서비스 도입
+  quote: >
+    일매출 3억 이커머스 플랫폼
 - layout: left
   company: 이랜드 리테일
   job_title: 개발자
@@ -13,13 +27,30 @@
   link: https://www.elandretail.com/
   description: | # this will include new lines to allow paragraphs
     - https://elandmall.com/
-    - Developed serverless application
-    - In charge of CI-CD of web application
-- layout: left
-  company: 이랜드 시스템스
-  job_title: 개발자 (인턴)
-  dates: July 2019 - August 2019
-  link: https://elandinnople.com/dv/
-  description: | # this will include new lines to allow paragraphs
-    - https://elandmall.com/
-    - Developed serverless application of short-url
+    - 이랜드몰 백오피스 개발 (javascript, java)
+    - Jenkins와 spinnaker를 활용한 CI,CD 구축
+    - 단축 url 서버리스 애플리케이션 개발 (동시 접속자수 30% 증가)
+  quote: >
+    분기매출 3500억 이커머스 플랫폼
+    
+    
+#    (Daily sales ₩300M)
+#    - Back-end Developer (Product Domain, Coupon Domain)
+#    ü Increased cumulated users up to 20K users by implementing Unified Message Service.
+#    ü Refactored codes with reasonable design patterns. (Java, JPA, SpringBoot)
+#    ü Provided auto-generated APIs specification with RestDocs instead of writing manually.
+#    ü Ensured applications deployment with test codes in different environment. (JUnit, SpringBoot) ü Prevented data loss and duplication with FIFO-queues. (AWS Simple-Queue-Service)
+#    - DevOps Engineer
+#    ü Strengthened security of secret values with AWS Secret Manager and Kubernetes ConfigMap. ü Provided scalability of applications by using Kubernetes HPA.
+#    ü Provided interfaces to execute batch manually by switching Kubernetes Jobs to Jenkins Jobs.
+#    • NRS (New RIMAN System) Platform https://myoffice.rimankorea.com & admin website (Yearly sales ₩849B)
+#    - Back-end Developer (Member, Order, Payments, Settle Domain)
+#    ü Reduced code execution time 80% and decreased databases connection pools by refactoring codes. ü Decreased 15% application workloads by switching APIs to batch applications.
+#    ü Provided 80% faster responses of REST APIs related with statistics of sales.
+#  (Quarter sales ₩350B)
+#  Jan. 2020 – Jun. 2021
+#- Back-end Developer
+#  ü Increased 30% concurrent users with URL-shorten Serverless application (AWS Lambda)
+#  ü Reduced downtime of applications by troubleshooting with web technologies (Java, JavaScript, XML) ü Managed Servers (AWS EC2) and databases (AWS RDS) by standby 24hours
+#  • Automatic WMS with robot (co-operated with SSG I&C)
+#  ü Co-operated with technical stakeholders by translating and communicating in Chinese.
