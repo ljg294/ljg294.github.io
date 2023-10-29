@@ -12,7 +12,7 @@
     - API 정의서 문서 자동화 테스트 코드 작성 (ASCII Doc)
     - UMS API 개발
   description_title_second: | # this will include new lines to allow paragraphs
-    - https://mall.rimankorea.com/ - 상품, 쿠폰 도메인 개발
+    https://mall.rimankorea.com/ - 상품, 쿠폰 도메인 개발
   description_second: |
     - 마스터 상품 구성 및 기본 기능 구현
     - 라이브 테이블 구현으로 NOSQL 적용 가능한 모델 구현
@@ -25,8 +25,9 @@
   job_title: 개발자
   dates: January 2020 - June 2021
   link: https://www.elandretail.com/
+  description_title: | # this will include new lines to allow paragraphs
+    https://elandmall.com/
   description: | # this will include new lines to allow paragraphs
-    - https://elandmall.com/
     - 이랜드몰 백오피스 개발 (javascript, java)
     - Jenkins와 spinnaker를 활용한 CI,CD 구축
     - 단축 url 서버리스 애플리케이션 개발 (동시 접속자수 30% 증가)
