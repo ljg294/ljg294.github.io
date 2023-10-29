@@ -8,6 +8,6 @@
 - layout: left
   name: DevOps
   description: | # this will include new lines to allow paragraphs
-    * Jenkins, ArgoCD
+    * Jenkins, ArgoCD, Spinnaker
     * AWS Services (SQS, SNS, DMS, RDS, etc.)
     * Kubernetes (EKS)
