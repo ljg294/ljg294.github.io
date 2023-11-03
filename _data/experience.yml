@@ -4,7 +4,7 @@
   dates: 2021.06 - 2023.05
   link: https://www.rimankorea.co.kr/
   quote: >
-    연매출 8490억
+    회원 전용 이커머스 플랫폼 - 연매출 8490억
   brief_description: 회원 전용 구매 사이트 (https://myoffice.rimankorea.com)
   situation:
     주문, 회원, 정산 도메인 백엔드 API를 개발 했습니다.
@@ -20,7 +20,7 @@
     - REST API의 응답 시간을 최대 80% 단축 및 업무 효율성 향상
     - 새로운 수정 작업 완료 될때 마다 자동 문서화 완료
   quote_second: >
-    일매출 3억
+    일반 소비자 대상 이커머스 플랫폼 - 일매출 3억
   brief_description_second: 온라인몰 (https://mall.rimankorea.com)
   situation_second:
     상품, 쿠폰 도메인 백엔드 API를 개발 및 인프라 관리를 했습니다.
