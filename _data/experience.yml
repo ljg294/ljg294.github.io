@@ -41,15 +41,25 @@
   job_title: 개발자
   dates: 2020.01 - 2021.06
   link: https://www.elandretail.com/
-  description_title: | # this will include new lines to allow paragraphs
-    https://elandmall.com/
   description: | # this will include new lines to allow paragraphs
     - 이랜드몰 백오피스 개발 (javascript, java)
     - Jenkins와 spinnaker를 활용한 CI,CD 구축
     - 단축 url 서버리스 애플리케이션 개발 (동시 접속자수 30% 증가)
   quote: >
     분기매출 3500억 이커머스 플랫폼
-    
+  brief_description: 회원 전용 구매 사이트 (https://www.elandmall.com)
+  situation:
+    이랜드몰 운영과 관리를 했습니다.
+  task: |
+    - 이랜드몰 동시 접속자 수를 늘리기
+    - SSG I&C와 협력하여 로봇을 이용한 자동 창고 관리 시스템(WMS)
+  action: |
+    - Serverless Application(AWS Lambda)를 이용한 단축 url 개발
+    - 중국 로봇 회사와 소통하기 위해 통역 및 의사 소통하 프로젝트 기여
+    - Jenkins와 spinnaker를 활용한 WMS API server CI,CD 구축
+  result: |
+    - 이랜드몰 동시 접속자 수 30% 증가
+    - 천안 이랜드 물류창고 로봇물류 서비스 도입으로 인한 일 처리량 60% 증가    
     
 #    (Daily sales ₩300M)
 #    - Back-end Developer (Product Domain, Coupon Domain)
