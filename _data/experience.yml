@@ -1,29 +1,45 @@
-- layout: left
+- layout: left-experience
   company: 리만코리아
   job_title: 백엔드 개발자
-  dates: June 2021 - May 2023
+  dates: 2021.06 - 2023.05
   link: https://www.rimankorea.co.kr/
-  description_title: | # this will include new lines to allow paragraphs
-    https://myoffice.rimankorea.com/ - 주문, 회원, 정산 도메인 개발
-  description: |
-    - 환불 프로세스 쿼리 롤백 개발
-    - 집계 프로세스 개발
-    - 리팩토링 및 쿼리 튜닝
-    - API 정의서 문서 자동화 테스트 코드 작성 (ASCII Doc)
-    - UMS API 개발
-  description_title_second: | # this will include new lines to allow paragraphs
-    https://mall.rimankorea.com/ - 상품, 쿠폰 도메인 개발
-  description_second: |
-    - 마스터 상품 구성 및 기본 기능 구현
-    - 라이브 테이블 구현으로 NOSQL 적용 가능한 모델 구현
-    - 쿠폰 사용 및 롤백을 위한 비동기 프로세스 구현
-    - UMS 서비스 도입
   quote: >
-    일매출 3억 이커머스 플랫폼
-- layout: left
+    연매출 8490억
+  brief_description: 회원 전용 구매 사이트 (https://myoffice.rimankorea.com)
+  situation:
+    주문, 회원, 정산 도메인 백엔드 API를 개발 했습니다.
+  task: |
+    - 다수 비즈니스 로직 개발 및 오류 개선
+    - 효율적인 코드 개선
+    - REST API 정의서 문서화 개선
+  action: |
+    - Kibana를 통한 애플리케이션 로그 확인 및 API 수정
+    - 애플리케이션 코드에 적합한 Design Pattern 적용
+    - 테스트 코드 작성 및 Spring REST Docs 를 통한 문서 자동화
+  result: |
+    - REST API의 응답 시간을 최대 80% 단축 및 업무 효율성 향상
+    - 새로운 수정 작업 완료 될때 마다 자동 문서화 완료
+  quote_second: >
+    일매출 3억
+  brief_description_second: 온라인몰 (https://mall.rimankorea.com)
+  situation_second:
+    상품, 쿠폰 도메인 백엔드 API를 개발 및 인프라 관리를 했습니다.
+  task_second: |
+    - 상품 조회 속도 개선
+    - 광고/홍보 및 알림 서비스 제공
+    - 데이터 전송 안정성 보장
+  action_second: |
+    - Live-table(read) 구조 생성 및 배치 프로세스 개발
+    - UMS(Unified Messaging System) 도입
+    - AWS Service(SQS, SNS)를 활용하여 비동기 로직 도입
+  result_second: |
+    - 대량의 상품 조회 지연 없음
+    - 일 누적 접속자 수 30% 증가
+    - 타 도메인 데이터 변경으로 인한 데이터 생성/수정 정합성 보장
+- layout: left-experience
   company: 이랜드 리테일
   job_title: 개발자
-  dates: January 2020 - June 2021
+  dates: 2020.01 - 2021.06
   link: https://www.elandretail.com/
   description_title: | # this will include new lines to allow paragraphs
     https://elandmall.com/
