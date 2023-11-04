@@ -6,7 +6,7 @@
   quote: >
     회원 전용 이커머스 플랫폼 - 연매출 8490억
   brief_description: |
-    [회원 전용 구매 사이트](https://myoffice.rimankorea.com)
+    [리만코리아 마이오피스](https://myoffice.rimankorea.com)
   situation:
     주문, 회원, 정산 도메인 백엔드 API를 개발 했습니다.
   task: |
@@ -23,7 +23,7 @@
   quote_second: >
     일반 소비자 대상 이커머스 플랫 - 일매출 3억
   brief_description_second: |
-    [온라인몰](https://mall.rimankorea.com)
+    [리만코리아 공식 올라인 몰](https://mall.rimankorea.com)
   situation_second:
     상품, 쿠폰 도메인 백엔드 API를 개발 및 인프라 관리를 했습니다.
   task_second: |
