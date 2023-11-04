@@ -21,12 +21,13 @@
     {%- endif -%}
   </div>
   <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
-    {%- if include.item.quote -%}
-    <p class="quote">{{ include.item.quote }}</p>
-    {%- endif -%}
+
 <!-- star method description-->
 <!--    first section-->
     <h1><b>{{ include.item.brief_description | strip | markdownify }}</b></h1>
+    {%- if include.item.quote -%}
+    <p class="quote">{{ include.item.quote }}</p>
+    {%- endif -%}
     <h2><b>Situation<span class="period-mark">.</span></b></h2>
     {{ include.item.situation | strip | markdownify }}
     <h2><b>Task<span class="period-mark">.</span></b></h2>
@@ -40,11 +41,12 @@
     </h2>
     {{ include.item.result | strip | markdownify }}
     <!--    second section if exist-->
+
+    {%- if include.item.brief_description_second -%}
+    <h1><b>{{ include.item.brief_description_second | strip | markdownify }}</b></h1>
     {%- if include.item.quote_second -%}
     <p class="quote">{{ include.item.quote_second }}</p>
     {%- endif -%}
-    {%- if include.item.brief_description_second -%}
-    <h1><b>{{ include.item.brief_description_second | strip | markdownify }}</b></h1>
     <h2><b>Situation<span class="period-mark">.</span></b>
     </h2>
     {{ include.item.situation_second | strip | markdownify }}
