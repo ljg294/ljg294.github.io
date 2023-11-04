@@ -1,6 +1,13 @@
 <div class="container certification-container">
-  <h3>{{ site.certification_title | default: "CERTIFICATION & LICENSE" }}</h3>
-  {% for certification in site.data.certification %}
-  {% include {{ certification.layout | default: 'left' | append: ".html" }} item=certification %}
-  {% endfor %}
+  <h3>{{ site.certification_title | default: "CERTIFICATION & LICENSE" }}<span class="period-mark">.</span></h3>
+  {%- if site.cka_image -%}
+  <div class="col-xs-12 col-sm-4 col-md-3 no-print">
+    <span class="certfication-img" style="background-image: url({{ site.cka_image | relative_url }})"></span>
+  </div>
+  {%- endif -%}
+  <div class="{{ 'col-xs-12 ' }}{%- if site.cka_image -%}col-sm-8 col-md-9 col-print-12{%- endif -%}">
+    {% for certification in site.data.certification %}
+    {% include {{ certification.layout | default: 'left' | append: ".html" }} item=certification %}
+    {% endfor %}
+  </div>
 </div>

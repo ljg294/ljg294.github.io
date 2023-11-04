@@ -62,6 +62,9 @@ content:
 #        description: | # this will include new lines to allow paragraphs
 #          Description about the work on/with the project
 
+#Certification image section
+cka_image: images/kubernetes-cka-color.svg
+ckad_image: images/kubernetes-ckad-color.svg
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)

@@ -1,5 +1,5 @@
 <div class="container education-container">
-  <h3>{{ site.education_title | default: "SKILL" }}</h3>
+  <h3>{{ site.education_title | default: "SKILL" }}<span class="period-mark">.</span></h3>
   {% for education in site.data.skill %}
   {% include {{ education.layout | default: 'left' | append: ".html" }} item=education %}
   {% endfor %}

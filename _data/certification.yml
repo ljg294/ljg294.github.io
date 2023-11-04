@@ -1,9 +1,12 @@
 - layout: trisection
   title: CKA (Certified Kubernetes Administrator)
   dates: Issued Sep 2023, Expired Sep 2026
+  image: images/kubernetes-cka-color.svg
 - layout: trisection
   title: CKAD (Certified Kubernetes Application Developer)
   dates: Issued Oct 2023, Expired Oct 2026
+  image: images/kubernetes-ckad-color.svg
 - layout: trisection
   title: Amazon Web Services Cloud Practitioner
   dates: Issued Apr 2023, Expired Apr 2026
+  image: images/kubernetes-ckad-color.svg
